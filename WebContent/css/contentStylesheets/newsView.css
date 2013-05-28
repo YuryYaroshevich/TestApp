@@ -1,0 +1,17 @@
+.text {
+	width: 400px;
+}
+
+.label {
+	color: grey;
+}
+
+#submit-buttons {
+	float: right;
+	margin-right: 100px;
+}
+
+#submit-buttons > form {
+	display: inline-block;
+	margin-right: 15px;
+}

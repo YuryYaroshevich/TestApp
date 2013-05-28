@@ -1,0 +1,13 @@
+div#content-head {
+	font-size: 12px;
+	margin-left: -10px;
+	margin-bottom: 20px;
+}
+
+div#content-head > span#label {
+	text-decoration: underline;
+}
+
+div#content-head > span#arrows, span#label {
+	color: grey;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+"http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+<tiles-definitions>
+	<definition name="layout" page="/WEB-INF/layout/layout.jsp">
+		<put name="header" value="/WEB-INF/layout/header.jsp" />
+		<put name="footer" value="/WEB-INF/layout/footer.jsp" />
+		<put name="menu" value="/WEB-INF/layout/menu.jsp" />
+	</definition>
+
+	<definition name="newsList" extends="layout">
+		<put name="title" value="News list" />
+		<put name="content" value="/WEB-INF/content/NewsList.jsp" />
+	</definition>
+	
+	<definition name="viewNews" extends="layout">
+		<put name="title" value="News view" />
+		<put name="content" value="/WEB-INF/content/ViewNews.jsp" />
+	</definition>
+	
+	<definition name="editNews" extends="layout">
+		<put name="title" value="Edit news" />
+		<put name="content" value="/WEB-INF/content/EditNews.jsp" />
+	</definition>
+	
+	<definition name="addNews" extends="layout">
+		<put name="title" value="Add news" />
+		<put name="content" value="/WEB-INF/content/AddNews.jsp" />
+	</definition>
+</tiles-definitions>

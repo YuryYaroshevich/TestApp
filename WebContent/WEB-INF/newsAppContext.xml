@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean name="/news" class="com.epam.ta.presentation.action.NewsAction">
+		<property name="newsDAO" ref="newsDAO" />
+	</bean>
+
+	<bean id="newsDAO" class="com.epam.ta.database.dao.NewsDAO"
+		factory-method="getInstance">
+		<property name="connectionPool" ref="connectionPool" />
+	</bean>
+
+	<bean id="connectionPool" class="com.epam.ta.database.pool.ConnectionPool"
+		factory-method="getInstance" destroy-method="closeAllConnections" />
+
+</beans>

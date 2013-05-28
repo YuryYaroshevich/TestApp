@@ -1,0 +1,23 @@
+ul#error-list {
+	margin-bottom: 15px;
+	border: 1px solid red;
+	padding: 0px 15px;
+}
+
+td.label {
+	vertical-align: top;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.buttons input {
+	margin-right: 15px;
+}
+
+tr,td {
+	border: 20px solid white;
+	border-left: none;
+	border-top: none;
+}

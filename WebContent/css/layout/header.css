@@ -1,0 +1,19 @@
+div#header > div#language-links {
+	position: absolute;
+    left: 820px;
+    bottom: 5px;
+	width: 170px;
+}
+
+div#language-links > a {
+	margin-left: 15px;
+	color: #0000CC;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+div#header > h1 {
+	font-size: 25px;
+	margin: 20px auto;
+	color: #000099;
+}

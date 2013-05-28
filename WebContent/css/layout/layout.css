@@ -1,0 +1,47 @@
+body, div, table, tr, td, ul, li, form {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid;
+	font-family: sans-serif;
+	position: relative;
+}
+
+textarea {
+	resize: none;
+}
+
+div#header {
+	position: relative;
+	padding-left: 40px;
+	border: 1px solid;
+}
+
+div#menu {
+	float: left;
+	width: 170px;
+	margin-left: 15px;
+	margin-top: 5px;
+	padding: 5px 0px 5px 10px;
+	position: relative;
+	background-color: #D0D0D0; 
+}
+
+div#content {
+	float: left;
+	width: 726px;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 220px;
+	padding: 30px;
+	font-size: 12px;
+	border: 1px solid #D0D0D0;
+}
+
+div#footer {
+	clear: left;
+}

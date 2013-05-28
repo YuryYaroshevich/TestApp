@@ -1,0 +1,36 @@
+.news-in-list {
+	position: relative;
+	overflow: auto;
+	margin-bottom: 40px;
+}
+
+.title {
+	font-weight: bold;
+	width: 570px;
+}
+
+.date {
+	position: absolute;
+	right: 20px;
+	top: 0px;
+	text-decoration: underline;
+}
+
+.brief {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 500px;
+}
+
+.action-links {
+	float: right;
+}
+
+.action-links a {
+	margin-right: 15px;
+	color: #0000CC;
+}
+
+input#delete-group {
+	float: right;
+}

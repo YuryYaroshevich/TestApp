@@ -1,0 +1,37 @@
+div#menu > h4 {
+	margin-bottom: 7px;
+	text-align: center;
+	background-color: #888888;
+	padding: 5px 0;
+	color: white;
+	font-size: 12px;
+}
+
+div#menu ul {
+	border: 1px solid;
+	margin-left: 15px;
+	margin-right: 5px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-top: 7px;
+	padding-bottom: 25px;
+	padding-left: 24px;
+	background-color: white;
+}
+
+div#menu li {
+	padding-right: 10px;
+	margin-top: 5px;
+	/*text-align: center;*/
+}
+
+div#menu li a {
+	margin-left: 10px;
+	font-size: 12px;
+	color: #0000CC;
+	
+}
+
+div#menu li a:visited {
+	color: orange;
+}
